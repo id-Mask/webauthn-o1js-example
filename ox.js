@@ -175,3 +175,8 @@ const oxResult = ox.P256.verify({
 });
 console.log('OX P256 valid', oxResult);
 
+console.log(
+  '0x' + uncompressedPointHex,
+  '0x' + payloadHex,
+  '0x' + bufferToHex(signature)
+)
