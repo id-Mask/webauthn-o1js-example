@@ -77,7 +77,7 @@ console.log(
 );
 
 // verify
-const publicKey_ = Secp256r1.fromHex(publicKey).toBigint()
+const publicKey_ = Secp256r1.fromHex(publicKey)
 const payload_ = Secp256k1Scalar.from(payload)
 const signature_ = EcdsaP256.fromHex(signature)
 
